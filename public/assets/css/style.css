@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Raleway";
+    font-weight: 600;
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+    font-family: "Raleway";
+    font-weight: bold;
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+.invoice-img img {
+    max-width: 150px;
+}
+.invoice-img img {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.welcome-text h1 {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 55px;
+    margin: 0;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .welcome-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+.title {
+    transform: translateX(-50%);
+    display: block;
+    float: left;
+    left: 50%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.title span {
+    display: block;
+    float: left;
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+}
+.welcome-actions .btn {
+    background-color: #3498db;
+    padding: 0.9em 3.8em;
+    margin-top: 25px;
+}
+.welcome-actions .btn a {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+}
+.proforma {
+    color: #3498db;
+}
+img {
+    max-width: 85%;
+}
+.login-main {
+    min-height: 100vh;
+    background-color: rgba(202, 240, 248, 0.5);
+}
+.login-main input[type=email],
+.login-main input[type=password] {
+    border-radius: 20px;
+    height: 41px;
+}
+.login .left {
+    background: #3498db;
+}
+.login .right {
+    background: #ffffff;
+}
+.description {
+    max-width: 250px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.submit-login {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    height: 41px;
+    width: 100%;
+    background-color: #3498db;
+    border-color: #3498db;
+}
+.login a.btn.btn-link {
+    color: #808080;
+}
+.login > .row {
+    margin: 50px 10px;
+}
+.login img {
+    -webkit-animation: move 1s infinite  alternate;
+    animation: move 1s infinite  alternate;
+}
+@-webkit-keyframes move {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes move {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
